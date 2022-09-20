@@ -7,7 +7,7 @@
 // & => Ampersand
 
 int main() { // Define main function
-  printf("Hello Clang!"); // Define printf function<stdio.h> 
+  printf("Hello Clang!!"); // Define printf function<stdio.h> 
   // print("Hello Clang!")
   return 0;
   // main function return integer type number
