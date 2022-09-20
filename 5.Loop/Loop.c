@@ -11,7 +11,7 @@ int main() {
   // while
   int a = 0; // 초기값
   printf("Execute While \n");
-  // 특정 조건이 충족되었을때
+  // 특정 조건이 충족되었을때 // 무한루프
   while(a < 100) { // 반복 조건
     printf("%d", a); // 실행
     a++;
