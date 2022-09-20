@@ -10,7 +10,7 @@ int main() {
   // String: element가 string인 Array
   char c[12] = {'r', 'e', 's', 'i', 's', 't', 'e', 'r','b' , 'o', 'y', '\0'}; // string.length & memory 명시 // Single Quotation
   char d[] = "resisterboy"; // string.length & memory 명시X // Double Quotation
-  // string의 경우 index 마지막에 "\0"를 명시
+  // string의 경우 index 마지막에 "\0"를 명시 => null ternimater
   char e[12] = "resisterboy"; // Double Quotation
 
   printf("a size is: %d\n", sizeof(a)); // 40byte
